@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-const SplashScreen = () => {
+const Network = () => {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text style={{ fontSize: 20 }}>Splash Screen</Text>
+            <Text style={{ fontSize: 20 }}>Network Screen</Text>
         </View>
     );
 }
-export default SplashScreen;
+export default Network;

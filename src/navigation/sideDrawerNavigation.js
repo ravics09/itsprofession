@@ -4,7 +4,7 @@ import 'react-native-gesture-handler';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 const Drawer = createDrawerNavigator();
 
-import {ProfileStack, NetworkStack, SettingStack} from './stackNavigation';
+import {ProfileStack, NetworkStack, SettingStack, AboutUsStack} from './stackNavigation';
 import BottomTab from './bottomTabNavigation';
 
 const SideDrawerNavigation = () => (
@@ -18,6 +18,11 @@ const SideDrawerNavigation = () => (
     <Drawer.Screen
       name="Network"
       component={NetworkStack}
+      options={{headerShown: false}}
+    />
+    <Drawer.Screen
+      name="AboutUs"
+      component={AboutUsStack}
       options={{headerShown: false}}
     />
     <Drawer.Screen

@@ -8,7 +8,7 @@ import GlobalNavigation from './src/navigation/globalNavigation';
 
 const App = () => {
   return (
-    <SafeAreaView style={{flex:1, backgroundColor:'#F0F8FF'}}>
+    <SafeAreaView style={{flex:1, backgroundColor:'#3A7BD5'}}>
        <GlobalNavigation/>
     </SafeAreaView>
   );

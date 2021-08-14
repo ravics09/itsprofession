@@ -4,10 +4,10 @@ import 'react-native-gesture-handler';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 const BottomTab = createBottomTabNavigator();
 
-import HomeScreen from '../screens/homeScreen';
-import NotificationScreen from '../screens/notificationScreen';
-import EventsScreen from '../screens/eventScreen';
-import GroupsScreen from '../screens/groupScreen';
+import HomeScreen from '../screens/Home';
+import NotificationScreen from '../screens/Notification';
+import EventsScreen from '../screens/Events';
+import GroupsScreen from '../screens/Groups';
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
 Ionicons.loadFont().then(); // To avoid 'Unrecognized font family ionicons' Warning
