@@ -14,8 +14,19 @@ import NetworkScreen from '../screens/Network';
 import ProfileScreen from '../screens/Profile';
 import SettingScreen from '../screens/Setting';
 import AboutUsScreen from '../screens/AboutUs';
+import OnboardingScreen from '../screens/Onboarding';
+
 
 const Stack = createStackNavigator();
+
+export const OnboardingStack = () => (
+  <Stack.Navigator initialRouteName="OnboardingScreen" headerMode="none">
+    <Stack.Screen
+      name="OnboardingScreen"
+      component={OnboardingScreen}
+    />
+  </Stack.Navigator>
+);
 
 export const AuthStack = () => (
   <Stack.Navigator
